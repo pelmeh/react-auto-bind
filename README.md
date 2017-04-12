@@ -4,7 +4,7 @@ Auto binding events in React.js
 ### Problem
 Events need binding (it's routine when you will make many events)
 
-```
+```js
 class Timer extends React.Component {
   constructor (props) {
     super (props)
@@ -47,7 +47,7 @@ class Timer extends React.Component {
 ### Resolve
 Use this plugin. It's analysis you methods, find `key-methods` (React-action names ex.: `onClick`, `onBlur`, etc), make `autobilding` and proceed events to them.
 
-```
+```js
 // import actions.js
 
 class Timer extends React.Component {
@@ -87,7 +87,7 @@ Plugin `bind only used events`, no useless!
 
 #### `Multiply using`
 
-```
+```js
 class Timer extends React.Component {
   constructor (props) {
     super (props)
